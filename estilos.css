@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;  
+}
+
+@font-face {
+    font-family: 'renaultteemedregular';
+    src: url('fonts/renaultteemed_regular-webfont.woff2') format('woff2'),
+         url('font/renaultteemed_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: "Scope One", serif;
+    font-size: 18px;
+    line-height: 1,75rem;
+    background-color: #666;
+   
+   
+}       
+
+li{
+    list-style-type: none; 
+} 
+a{
+    text-decoration: none;
+    color: #999;
+}
+a:hover{
+    color: #000;
+}
+main{
+    max-width: 1366px;
+    background-color: white;
+    margin: 0 auto 0 auto;
+}
+
+h1, header nav, h1, h2, h3, h4, footer{
+    font-family: 'renaultteemedregular';
+} 
+nav#menu-principal{
+    clear: both;
+    background-color: black;
+    padding: 8px 8%;
+}
+nav#menu-principal li{
+    display: inline-block;
+    padding-right: 2.5%;
+}
+nav#menu-principal a{
+    color: white;
+}
+nav#menu-principal a:hover, nav#menu-principal a.resaltado{
+    color: #f2dd46;
+
+}
+.texto{
+    float: left;
+    padding: 50px 3.5% 50px 8%;
+    
+} 
+img, .iframe{
+    width: 100%;
+}
+.franceimg{
+    width: 42px;
+    
+}
+#logo{  
+    float: left;
+    max-width: 60px;
+    margin: 28px 1.5% 22px 7.5% ;
+}
+
+
+#hero-image{
+    border-bottom: 20px solid #f2dd46;
+
+} 
+
+/* H2 arnou y prost*/
+
+#numero-rojo, #numero-azul{
+    color: #ed2939;
+    margin-right: 14px;
+}
+#numero-azul{
+    color: #002395;
+}
+.contenedorpiloto{
+    display: flex;
+    padding-top: 25px;
+
+}
+.contenedor-img{
+    padding: 10px;
+    padding-left: 25px;
+
+}
+.contenedor{
+    display: flex;
+    padding: 50px 5%;
+}
+.contenedorsec{
+    padding: 0px 5% 0px 5%;
+    display: flex;
+}
+.contenedorarn{
+    display: flex;
+    padding: 0px 5% 0px 5%;
+} 
+
+#nombre-piloto{
+    display: inline-flex;
+    margin-left: 133px;
+}
+
+#bandera{
+    width: 42px;
+}
+
+.prost-img{
+    width: 800px;
+    height: 600px;
+    margin-top: -13%;
+}
+
+.arriba{
+    color: white;
+    background-color: #002395;
+}
+.arriba2{
+    color: white;
+    background-color:#ed2939 ;
+}
+h1{
+    margin-top: 52px;
+    float: left;
+    font-size: 3.25rem;
+    font-weight: bold;
+    color: black
+}
+
+.contenedor-iframe{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0%;
+}
+.contenedor-iframe iframe{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 800px;
+    height: 450px;
+    margin-left: 66px;
+}
+h2{
+    padding-bottom: 40px;
+    font-size: 2.5rem
+
+}
+section p{
+    margin-bottom: 20px;
+}
+
+.texto-contenedor2{
+    padding: 0% 3.5% 50px 8%;
+}
+h3{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #666;
+}  
+
+
+.imag-auto{
+    margin: 0%;
+    padding: 50px 3.5% 50px 8%;
+}
+.vidauto{
+    width: 800px;
+    height: 600px;
+    margin-top: -13%;
+}
+
+
+.pr{
+    margin-top: 10px;
+}
+.re{
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-left: 66px;
+    margin-top: 5px;
+}
+
+
+
+li{
+    display: inline-block;
+    padding-right: 25px;
+}
+
+
+
+/* aside */
+
+aside{
+    margin-top: 126px;
+    margin-left: 60px;
+}
+.aside-pub{
+    border: .5px solid #999;
+}
+aside nav{
+    margin-bottom: 20px;
+}
+h4{
+    font-size: 1.25rem;
+    color: #666;
+    border-bottom: 1px #ccc solid;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+/* footer*/
+
+footer{
+    clear: both;
+    color: white;
+    background-color: black;
+    padding: 15px 8%;
+}
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    color: #f2dd46;
+}
